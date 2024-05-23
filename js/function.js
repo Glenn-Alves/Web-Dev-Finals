@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return; // Exit early
         }
 
-        // Validate email format
+        // Validate email format for REGEX
         var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(email)) {
             alert('Please enter a valid email address.'); // Show warning message if email format is invalid
@@ -49,6 +49,10 @@ document.addEventListener('DOMContentLoaded', function() {
         donationForm.reset();
     });
 });
+
+
+
+
 
 
 

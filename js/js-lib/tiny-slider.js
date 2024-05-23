@@ -1,3 +1,6 @@
+
+/*FOR Sliding next or Prev both works on mobile or any devices*/
+
 var tns = (function (){
   var win = window;
 
