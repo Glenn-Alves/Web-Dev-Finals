@@ -113,29 +113,7 @@
 			});
 		}
 
-		// Initialize the Instagram slider if it exists
-		if (instagramSlider.length > 0) {
-			var instagramSlider = tns({
-				mode: 'carousel',
-				speed: 700,
-				items: 5,
-				gutter: 0,
-				loop: true,
-				edgePadding: 0,
-				controlsPosition: 'bottom',
-				navPosition: 'bottom',
-				nav: false,
-				autoplay: true,
-				controls: false,
-				autoplayButtonOutput: false,
-				responsive: {
-					0: { items: 1 },
-					700: { items: 2 },
-					900: { items: 4 },
-					1400: { items: 5 }
-				}
-			});
-		}
+		
 	}
 	tinyslider();
 
